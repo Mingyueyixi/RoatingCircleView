@@ -14,11 +14,11 @@ public class RoatingCircleView extends View{
     private Paint bPaint;
     private Paint gPaint;
     /**默认值：红色*/
-    private static int lColor = 0xffff2222;
+    private int lColor = 0xffff2222;
     /**默认值：绿色*/
-    private static int cColor = 0xff22ff22;
+    private int cColor = 0xff22ff22;
     /**默认值：蓝色*/
-    private static int rColor = 0xff2222ff;
+    private int rColor = 0xff2222ff;
 
     public RoatingCircleView(Context context) {
         super(context);
